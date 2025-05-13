@@ -45,10 +45,31 @@ body {
     padding: 16px;
     align-items: center;
 }
+
 .navbar{
     margin-bottom:10px;
     background-color: white;
     width: 1300px;
+    height: auto;
+}
+
+.navbar .splash{
+    margin:12px;
+
+    font-family: Verdana;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 2px 2px 2px #acacac;
+}
+.navbar .list ul li a {
+    margin:12px;
+
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff6c00;
+    text-shadow: 2px 2px 2px #acacac;
 }
 
 .navbar img {
@@ -66,15 +87,7 @@ body {
     display: inline; 
 } 
 
-.navbar .list ul li a {
-    margin:12px;
 
-    font-family: Verdana;
-    font-size: 20px;
-    font-weight: bold;
-    color: #ff6c00;
-    text-shadow: 2px 2px 2px #acacac;
-}
 
 .navbar .list ul li a:active {
     color:orange;

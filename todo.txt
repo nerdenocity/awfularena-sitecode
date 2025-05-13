@@ -1,0 +1,31 @@
+items sorted from top to low priority
+
+
+
+TFDS
+
+wait for that site to finish verification
+connect to PuTTY and follow Aar steps via site
+import server.cfg from ABAserver
+add sourcemods
+
+
+
+WEBSITE
+
+learn php
+fix navbar for php links
+splash directs to index.php
+draft info.php
+draft QnA.php
+email prompt box @ contact.php
+copyright notice at bottom html
+404.html
+
+
+
+DEPENDANTS
+
+recieving debit card for donations or whatever
+waiting for host verification to host
+completing hosting so i can set up stats

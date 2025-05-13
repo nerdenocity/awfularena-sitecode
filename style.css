@@ -5,12 +5,35 @@ html {
     font-family: Verdana;
 }
 
-body {
+/* body {
     background-image: url("");
     background-color: grey;
     width: 100%;
     position: absolute;
     top: none;
+} */
+
+body {
+    background-color: gray;
+    background-image: url("stars.png");
+    width: 100%;
+    position: absolute;
+    top: none;
+    background-repeat: repeat;
+    animation: marquee 120s infinite linear;
+}
+
+
+@keyframes marquee {
+  0% {
+    position: 0;
+    background-position: 0;
+  }
+
+  100% {
+    position: -1200px;
+    background-position: -1200px;
+  }
 }
 
 .container {
@@ -28,9 +51,15 @@ body {
 
 .content {
     opacity:1;
-    color: black;
-    width: 800px;
+    width: 1200px;
     background-color:white;
+    
+    font-size: 14px;
+    font-family: courier;
+    font-weight: bold;
+    color: black;
+    padding: 16px;
+    align-items: center;
 }
 
 .content img {
@@ -38,13 +67,6 @@ body {
 /*     margin-left: auto;
     margin-right: auto; */
     width: 500px;
-}
-
-
-.text {
-    color: black;
-    padding: 16px;
-    align-items: center;
 }
 
 .navbar {

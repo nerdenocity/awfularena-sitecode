@@ -27,9 +27,9 @@ body {
 
 .content {
     opacity:1;
-    color: white;
+    color: black;
     width: 800px;
-    background-color:black;
+    background-color:white;
 }
 
 .content img {
@@ -41,28 +41,32 @@ body {
 
 
 .text {
-    color: white;
+    color: black;
     padding: 16px;
     align-items: center;
+}
+.navbar{
+    margin-bottom:10px;
+    background-color: white;
+    width: 1300px;
 }
 
 .navbar img {
     margin:18px;
     width: 100px;
+    
 }
 
-.navbar ul { 
+.navbar .list ul { 
     margin: auto; 
     list-style-type: none; 
     text-align: center; 
-    background-color: white;
-    width: 1300px;
-} 
-.navbar ul li {  
+}
+.navbar .list ul li {  
     display: inline; 
 } 
 
-.navbar ul li a {
+.navbar .list ul li a {
     margin:12px;
 
     font-family: Verdana;
@@ -72,11 +76,11 @@ body {
     text-shadow: 2px 2px 2px #acacac;
 }
 
-.navbar ul li a:active {
+.navbar .list ul li a:active {
     color:orange;
 }
 
-.navbar a:hover {
+.navbar .list a:hover {
     color:red;
 }
 

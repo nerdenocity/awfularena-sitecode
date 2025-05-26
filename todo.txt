@@ -18,7 +18,6 @@ fix navbar for php links
 splash directs to index.php
 draft info.php
 email prompt box @ contact.php
-copyright notice at bottom html
 404.html
 
 

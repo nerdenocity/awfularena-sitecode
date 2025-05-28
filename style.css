@@ -103,7 +103,7 @@ body {
 .content img {
     /*display: block;*/
     margin: auto;
-    width: auto;
+    width: 64px;
     /* width: 1200px; */
 }
 

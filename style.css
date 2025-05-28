@@ -105,6 +105,7 @@ body {
     margin-left: none;
     margin-right: none;
     margin: auto;
+    width: auto;
     /* width: 1200px; */
 }
 

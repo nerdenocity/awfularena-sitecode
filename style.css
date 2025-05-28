@@ -4,7 +4,7 @@ html {
 
 /* GENERIC BACKGROUND */
 body {
-    background-image: url("img/spyroland.jpg");
+    background-image: url("img/pyroland.jpg");
     background-color: grey;
     background-attachment: fixed;
     background-position-y: -64px;
@@ -101,9 +101,7 @@ body {
 }
 
 .content img {
-    display: block;
-    margin-left: none;
-    margin-right: none;
+    /*display: block;*/
     margin: auto;
     width: auto;
     /* width: 1200px; */

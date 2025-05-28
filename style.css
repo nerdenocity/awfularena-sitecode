@@ -104,7 +104,8 @@ body {
     display: block;
     margin-left: none;
     margin-right: none;
-    width: 1200px;
+    margin: auto;
+    /* width: 1200px; */
 }
 
 .navbar {

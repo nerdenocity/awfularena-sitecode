@@ -63,22 +63,41 @@ body {
     align-items: center;
 }
 
-.content p, h1, h2 {
-    margin: 32px;
+.content p {
+    padding: 16px;
 }
 
 .content h1 {
-    margin: 0;
+    padding-top: 64px;
     text-align: center;
     font-family: cambria;
     font-size: 128px;
 }
 .content h2 {
-    margin: 0;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    font-family: cambria;
+    font-size: 32px;
+    font-weight: normal;
     text-align: center;
+}
+.content h3 {
+    font-family: cambria;
+    font-size: 48px;
+    font-weight: normal;
+    text-align: center;
+}
+.content q {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 42px;
     font-family: times;
     font-size: 24px;
     font-weight: normal;
+}
+
+.content li {
+    margin-left: 64px;
 }
 
 .content img {
@@ -104,6 +123,11 @@ body {
     width: 100px;
     height: auto;
     float: left;
+}
+
+.fakelink {
+    color:blue;
+    text-decoration: underline;
 }
 
 .navbar .splash{

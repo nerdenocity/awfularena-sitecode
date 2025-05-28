@@ -130,6 +130,11 @@ body {
     text-decoration: underline;
 }
 
+.fakelink :visited {
+    color:blue;
+    text-decoration: underline;
+}
+
 .navbar .splash{
     margin-top: 18px;
     float: left;

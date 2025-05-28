@@ -4,26 +4,26 @@ items sorted from top to low priority
 
 TFDS
 
-wait for that site to finish verification
-connect to PuTTY and follow Aar steps via site
-import server.cfg from ABAserver
-add sourcemods
+add spraymod
+fix rtv. ask layton
 
 
 
 WEBSITE
 
 learn php
+
 fix navbar for php links
-splash directs to index.php
-draft info.php
+splash icon on navbar directs to index.php
+
+draft info.php text basics.
 email prompt box @ contact.php
 404.html
+embed paypal to donation page as well as ko-fi
 
 
 
 DEPENDANTS
 
 recieving debit card for donations or whatever
-waiting for host verification to host
-completing hosting so i can set up stats
+completing hosting at 100% so i can set up stats

@@ -130,7 +130,7 @@ body {
     text-decoration: underline;
 }
 
-.fakelink :visited {
+.fakelink:visited {
     color:blue;
     text-decoration: underline;
 }
